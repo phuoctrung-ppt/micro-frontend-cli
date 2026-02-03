@@ -1,0 +1,49 @@
+{
+  "name": "@noob-dev/create-micro-frontend",
+  "version": "1.0.0",
+  "description": "CLI tool for creating micro-frontend applications with Module Federation",
+  "main": "dist/index.js",
+  "bin": {
+    "create-micro-frontend": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micro-frontend",
+    "module-federation",
+    "webpack",
+    "cli",
+    "react",
+    "vue"
+  ],
+  "author": "Phuoc Trung <phuoctrung.ppt@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phuoctrung-ppt/create-micro-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phuoctrung-ppt/create-micro-frontend/issues"
+  },
+  "homepage": "https://github.com/phuoctrung-ppt/create-micro-frontend#readme",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
