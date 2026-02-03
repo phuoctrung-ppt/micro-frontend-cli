@@ -1,6 +1,6 @@
 {
   "name": "@noob-dev/create-micro-frontend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool for creating micro-frontend applications with Module Federation",
   "main": "dist/index.js",
   "bin": {
@@ -27,12 +27,12 @@
   "author": "Phuoc Trung <phuoctrung.ppt@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phuoctrung-ppt/create-micro-frontend.git"
+    "url": "https://github.com/phuoctrung-ppt/micro-frontend-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/phuoctrung-ppt/create-micro-frontend/issues"
+    "url": "https://github.com/phuoctrung-ppt/micro-frontend-cli/issues"
   },
-  "homepage": "https://github.com/phuoctrung-ppt/create-micro-frontend#readme",
+  "homepage": "https://github.com/phuoctrung-ppt/micro-frontend-cli#readme",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
