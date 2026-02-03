@@ -1,0 +1,14 @@
+src/
+tsconfig.json
+.github/
+*.test.ts
+*.spec.ts
+.gitignore
+.git/
+node_modules/
+host-app/
+remote-app/
+docs/
+examples/
+*.log
+.DS_Store
